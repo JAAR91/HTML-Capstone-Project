@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid bg-primary w-100">
+    <header class="container-fluid bg-dark w-100">
         <nav class="row align-items-center">
             <div class="col-12 col-md-4 col-lg-5 d-flex flex-row justify-content-center p-4">
                 <a class="mx-" href="#"><img src="/Resources/pin.png" alt=""></a>
@@ -22,5 +22,34 @@
             </div>
         </nav>
     </header>
+        <!--search section-->
+        <section>
+            <div class="container position-relative">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="d-block w-100 h-100 searchpicture1"></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-block w-100 h-100 searchpicture2"></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-block w-100 h-100 searchpicture3"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="position-absolute top-50 start-50 translate-middle text-white searchbox">
+                    <p>PAGE NAME... Your best option to locate restaurants</p>
+                    <form method="GET" action="/searchresult.html">
+                        <label for="search">Search by key word:</label>
+                        <input type="text">
+                        <button type="submit">SEARCH</button>
+                    </form>
+                    <button>How it Works</button>
+                  </div>
+            </div>
+        </section>   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
 </body>
 </html>

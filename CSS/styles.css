@@ -1,4 +1,119 @@
 a {
   text-decoration: none;
 }
+
+.searchbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: rgba(29, 29, 29, 0.6);
+  border-radius: 12px;
+}
+
+.searchbox p {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.searchbox form {
+  border-radius: 10px;
+  background-color: rgba(73, 44, 73, 0.6);
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchbox form label {
+  padding: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.searchbox form input {
+  margin: 0 20px 20px;
+  width: 90%;
+  border-radius: 3px;
+  border: 0;
+  font-size: 18px;
+}
+
+.searchbox form button {
+  margin: 0 20px 0 20px;
+  color: white;
+  background-color: #45aae4;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.searchbox button {
+  width: 150px;
+  border: 0;
+  background-color: aliceblue;
+  border-radius: 2px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 14px;
+}
+
+.carousel-inner {
+  height: 700px;
+}
+
+.searchpicture1 {
+  background-image: url("/Resources/food.jpg");
+  background-size: cover;
+}
+
+.searchpicture2 {
+  background-image: url("/Resources/food2.jpg");
+  background-size: cover;
+}
+
+.searchpicture3 {
+  background-image: url("/Resources/food3.jpg");
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .searchbox form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  .searchbox form label {
+    grid-column: span 2;
+  }
+  .searchbox form input {
+    margin: 0;
+    width: 100%;
+  }
+  .searchbox form button {
+    width: 100%;
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
