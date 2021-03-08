@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+.normaltextsize {
+  font-size: 11px; 
+}
+
 .searchbox {
     display: flex;
     flex-direction: column;
@@ -13,7 +17,7 @@ a {
     p {
         font-weight: bold;
         margin: 10px;
-        font-size: 18px;
+        font-size: 15px;
     };
 
     form {
@@ -26,7 +30,7 @@ a {
         
         label {
             padding: 0;
-            font-size: 18px;
+            font-size: 15px;
             margin-bottom:10px;
         };
         input {
@@ -44,17 +48,19 @@ a {
             border: 0;
             border-radius: 5px;
             width: 250px;
-            font-size: 18px
+            font-size: 15px;
+            padding: 4px;
         };
     };
 
     button {
         width: 150px;
         border: 0;
-        background-color: aliceblue;
+        background-color: rgb(245, 226, 197);
         border-radius: 2px;
         align-self: center;
         margin-bottom: 14px;
+        font-size: 14px;
     };
 }
 
@@ -98,6 +104,12 @@ a {
             text-align: center;
             img {
                 width: 200px;
+            };
+            h3 {
+                font-size: 17px;
+            };
+            p {
+                font-size: 15px;
             };
         };
     };
@@ -154,6 +166,8 @@ a {
    display: flex;
    flex-direction: column;
    text-align: center;
+   padding: 0;
+   margin: 0;
    li {
        a {
         color: white;
@@ -164,11 +178,11 @@ a {
 .menuimg {
     display: flex;
     justify-content: center;
-    width: 65;
-    height: 65;
+    width: 40px;
+    height: 40px;
      img {
-        width: 60px;
-        height: 60px;
+        width: 35px;
+        height: 35px;
         border-radius: 50%;
         border: 1px solid silver;  
         padding: 10px;
@@ -177,24 +191,36 @@ a {
 
 .navmenu {
     border-bottom: 1px solid silver;
-    padding: 20px 0 20px 0;
+    padding: 5px 0 5px 0;
     justify-content: center;
     width: 100%;
 }
 
-.links {
-    padding: 0;
-    div {
-        border-bottom: 1px solid silver;
-        margin: 10px 0 10px 0;
-        h3 {
-            color: white;
-            font-weight: bold;
-            font-size: 15px;
+
+
+.linkschild {
+    border-bottom: 1px solid silver;
+    margin: 10px 0 10px 0;
+    h3 {
+        color: white;
+        font-size: 13px;
+        margin: 0;
+    };
+    p {
+        color: white;
+    };
+    form {
+        input {
+            font-size: 12px;
+            border: 0;
+            border-radius: 2px;
         };
-        P {
-            color: white;
-        }
+
+        button {
+            font-size: 12px;
+            border: 0;
+            border-radius: 5px;
+        };
     };
 }
 
@@ -203,7 +229,9 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     img {
-        margin: 20px;
+        margin:0 5px 0 5px;
+        width: 16px;
+        height: 16px;
     };
 }
 

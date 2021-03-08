@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+.normaltextsize {
+  font-size: 11px;
+}
+
 .searchbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,7 +25,7 @@ a {
 .searchbox p {
   font-weight: bold;
   margin: 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .searchbox form {
@@ -42,7 +46,7 @@ a {
 
 .searchbox form label {
   padding: 0;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
@@ -62,18 +66,20 @@ a {
   border: 0;
   border-radius: 5px;
   width: 250px;
-  font-size: 18px;
+  font-size: 15px;
+  padding: 4px;
 }
 
 .searchbox button {
   width: 150px;
   border: 0;
-  background-color: aliceblue;
+  background-color: #f5e2c5;
   border-radius: 2px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   margin-bottom: 14px;
+  font-size: 14px;
 }
 
 .carousel-inner {
@@ -127,6 +133,14 @@ a {
 
 .Steps ul li img {
   width: 200px;
+}
+
+.Steps ul li h3 {
+  font-size: 17px;
+}
+
+.Steps ul li p {
+  font-size: 15px;
 }
 
 .infobanner {
@@ -195,6 +209,8 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .bottombar li a {
@@ -208,13 +224,13 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 65;
-  height: 65;
+  width: 40px;
+  height: 40px;
 }
 
 .menuimg img {
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   border: 1px solid silver;
   padding: 10px;
@@ -222,30 +238,38 @@ a {
 
 .navmenu {
   border-bottom: 1px solid silver;
-  padding: 20px 0 20px 0;
+  padding: 5px 0 5px 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
 }
 
-.links {
-  padding: 0;
-}
-
-.links div {
+.linkschild {
   border-bottom: 1px solid silver;
   margin: 10px 0 10px 0;
 }
 
-.links div h3 {
+.linkschild h3 {
   color: white;
-  font-weight: bold;
-  font-size: 15px;
+  font-size: 13px;
+  margin: 0;
 }
 
-.links div P {
+.linkschild p {
   color: white;
+}
+
+.linkschild form input {
+  font-size: 12px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.linkschild form button {
+  font-size: 12px;
+  border: 0;
+  border-radius: 5px;
 }
 
 .solcialicons {
@@ -262,7 +286,9 @@ a {
 }
 
 .solcialicons img {
-  margin: 20px;
+  margin: 0 5px 0 5px;
+  width: 16px;
+  height: 16px;
 }
 
 .rights {
