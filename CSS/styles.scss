@@ -63,18 +63,74 @@ a {
 }
 
 .searchpicture1 {
-    background-image: url('/Resources/food.jpg');
+    background: url('/Resources/food.jpg');
     background-size: cover;
+    background-position: center;
+   
 }
 
 .searchpicture2 {
     background-image: url('/Resources/food2.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .searchpicture3 {
     background-image: url('/Resources/food3.jpg');
     background-size: cover;
+    background-position: center;
+}
+
+.Steps {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h2 {
+        font-size: 20px
+    };
+
+    ul {
+        list-style: none;
+        li {
+            padding: 30px;
+            text-align: center;
+            img {
+                width: 200px;
+            };
+        };
+    };
+}
+
+.infobanner {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    h3 {
+        grid-column: 1;
+    };
+        
+    p {
+        grid-column: 1;
+    };
+
+    button {
+        grid-column: 1;
+        width: 250px;
+        border: 0;
+        border-radius: 5px;
+        background-color: aliceblue;
+    };
+
+    img {
+        border-radius: 50%;
+        grid-column: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        width: 250px;
+    };
 }
 
 @media only screen and (min-width: 768px) {
