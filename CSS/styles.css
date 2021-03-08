@@ -185,6 +185,91 @@ a {
   color: #774162;
 }
 
+.bottombar {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.bottombar li a {
+  color: white;
+}
+
+.menuimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 65;
+  height: 65;
+}
+
+.menuimg img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid silver;
+  padding: 10px;
+}
+
+.navmenu {
+  border-bottom: 1px solid silver;
+  padding: 20px 0 20px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.links {
+  padding: 0;
+}
+
+.links div {
+  border-bottom: 1px solid silver;
+  margin: 10px 0 10px 0;
+}
+
+.links div h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.links div P {
+  color: white;
+}
+
+.solcialicons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.solcialicons img {
+  margin: 20px;
+}
+
+.rights {
+  color: white;
+  text-align: right;
+}
+
 @media only screen and (min-width: 768px) {
   .searchbox form {
     display: -ms-grid;
@@ -240,6 +325,25 @@ a {
     grid-row-end: 4;
     width: 250px;
     height: 250px;
+  }
+  .bottombar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .bottombar li {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .navmenu {
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */

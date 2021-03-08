@@ -8,17 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid bg-dark w-100">
+    <header class="container-fluid bg-dark w-100 fixed-top">
         <nav class="row align-items-center">
             <div class="col-12 col-md-4 col-lg-5 d-flex flex-row justify-content-center p-4">
                 <a class="mx-" href="#"><img src="/Resources/pin.png" alt=""></a>
-                <a class="text-white mx-3" href="#">PAGE NAME</a>
+                <a class="text-white mx-3" href="#">TABLEBOOKING</a>
             </div>
-            <div class="col-12 col-md-6 col-lg-5 d-flex flex-row justify-content-center p-4">
-                <a class="mx-5" href="#"><img src="/Resources/search.png" alt=""></a>
-                <a class="mx-5" href="#"><img src="/Resources/login.png" alt=""></a>
-                <a class="mx-5" href="#"><img src="/Resources/webfeed.png" alt=""></a>
-                <a class="mx-5" href="#"><img src="/Resources/menu.png" alt=""></a>
+            <div class="col-12 col-md-7 col-lg-7 d-flex flex-row justify-content-center p-4">
+                <a class="mx-5" href="#"><img class="p-1" src="/Resources/search.png" alt=""><p class="d-none d-lg-inline m-0 p-0 fs-6 text-white">SCHOOLS</p></a>
+                <a class="mx-5" href="#"><img class="p-1" src="/Resources/login.png" alt=""><p class="d-none d-lg-inline m-0 p-0 fs-6 text-white">ABOUT</p></a>
+                <a class="mx-5" href="#"><img class="p-1" src="/Resources/webfeed.png" alt=""><p class="d-none d-lg-inline m-0 p-0 fs-6 text-white">BLOG</p></a>
+                <a class="mx-5" href="#"><img class="p-1" src="/Resources/menu.png" alt=""><p class="d-none d-lg-inline m-0 p-0 fs-6 text-white">MORE...</p></a>
             </div>
         </nav>
     </header>
@@ -39,7 +39,7 @@
                 </div>
               </div>
               <div class="position-absolute top-50 start-50 translate-middle text-white searchbox">
-                <p>PAGE NAME... Your best option to locate restaurants</p>
+                <p>TABLEBOOKING... Your best option to locate restaurants</p>
                 <form method="GET" action="/searchresult.html">
                     <label for="search">Search by key word:</label>
                     <input type="text">
@@ -98,6 +98,55 @@
             </div>
         </div>
     </section>
+
+    <!--footer-->
+    <footer class="footer mt-auto bg-dark p-0">
+        <nav class="row navmenu">
+            <ul class="col-5 bottombar">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SEARCH</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">ADVERTISE</a></li>
+            </ul>
+            <li class="col-2 menuimg"><img class="mx-auto" src="/Resources/locationbig.png" alt=""></li>
+            <ul class="col-5 bottombar">
+                <li><a href="">FACEBOOK</a></li>
+                <li><a href="">TWITTER</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">GOOGLE+</a></li>
+            </ul>
+        </nav>
+        <div class="row links container-fluid">
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <h3>SUBSCRIBE</h3>
+                <form action="submit">
+                    <input type="email">
+                    <button>send</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <h3>CONTACT</h3>
+                <p>Have any questions please contact us at:</p>
+                <a href="#">info@whererestaurant.com</a>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <h3>ABOUT</h3>
+                <p>This is an online page try to make restaurant booking easier and faster, learn more <a href="#">about...</a></p>
+            </div>
+        </div>
+        <nav class="row container-fluid">
+            <nav class="col-12 col-md-3 solcialicons">
+                <img src="/Resources//facebook.png" alt="">
+                <img src="/Resources/twitter.png" alt="">
+                <img src="/Resources/email.png" alt="">
+                <img src="/Resources/google-plus-logo.png" alt="">
+                <img src="/Resources/instagram.png" alt="">
+            </nav>
+            <nav class="col-12 col-md-9 rights">
+                <p>TABLEBOOKING 2021.ALL RIGHTS RESERVED. LOVE AND AWESOMENESS</p>
+            </nav>
+        </nav>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
 </body>
 </html>

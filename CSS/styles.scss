@@ -149,6 +149,69 @@ a {
     };
 }
 
+.bottombar {
+   list-style: none; 
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   li {
+       a {
+        color: white;
+       };
+   };
+}
+
+.menuimg {
+    display: flex;
+    justify-content: center;
+    width: 65;
+    height: 65;
+     img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid silver;  
+        padding: 10px;
+     };
+}
+
+.navmenu {
+    border-bottom: 1px solid silver;
+    padding: 20px 0 20px 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.links {
+    padding: 0;
+    div {
+        border-bottom: 1px solid silver;
+        margin: 10px 0 10px 0;
+        h3 {
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        };
+        P {
+            color: white;
+        }
+    };
+}
+
+.solcialicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    img {
+        margin: 20px;
+    };
+}
+
+.rights {
+    color: white;
+    text-align: right;
+}
+
 @media only screen and (min-width: 768px) {
     .searchbox {
         form {
@@ -202,5 +265,18 @@ a {
         width: 250px;
         height: 250px;
       };
+    }
+
+    .bottombar {
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        li {
+            align-self: center;
+        };
+    }
+
+    .navmenu {
+        align-content: center;
     }
 }
