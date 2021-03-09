@@ -1,3 +1,6 @@
 /CSS/styles.css.map
 /CSS/styles.scss
 /bootstrap-5
+/node_modules
+package-lock.json
+package.json
