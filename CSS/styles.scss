@@ -259,6 +259,7 @@ header {
 
 .filtercontainer {
     background-color: rgb(226, 235, 238);
+    box-shadow: inset 0px 0px 5 px rgb(47, 90, 126);
     max-height: 900px;
 }
 
@@ -297,6 +298,22 @@ header {
 .searchpageclear {
     background-color: burlywood;
     color: white;
+}
+
+.resultboxchild {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a {
+        opacity: 0.95;
+        color: white;
+        background-image: url('/Resources/noimageprofile.jpg');
+        background-color: rgba(0, 0, 0, 0.425);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow:inset 0px 0px 120px 120px rgba(0, 0, 0, 0.87), 0px 0px 10px black;
+    };
 }
 
 @media only screen and (min-width: 768px) {
