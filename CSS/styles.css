@@ -256,6 +256,10 @@ header {
   width: 100%;
 }
 
+.mainfooter {
+  background-color: #472550;
+}
+
 .linkschild {
   border-bottom: 1px solid silver;
   margin: 10px 0 10px 0;
