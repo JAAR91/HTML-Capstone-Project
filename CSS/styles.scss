@@ -2,6 +2,15 @@ a {
     text-decoration: none;
 }
 
+body {
+  padding-top: 115px;
+  overflow-x: hidden;
+}
+
+header {
+    overflow: hidden;
+}
+
 .normaltextsize {
   font-size: 11px; 
 }
@@ -240,7 +249,60 @@ a {
     text-align: right;
 }
 
+#no {
+    width: 20px;
+}
+
+#yes {
+    width: 20px;
+}
+
+.filtercontainer {
+    background-color: rgb(226, 235, 238);
+    max-height: 900px;
+}
+
+.filtermain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.filterchild {
+    
+    margin: 0 10px 0 10px;
+    max-height: 100px;
+    
+    p {
+        margin: 0;
+    };
+    input {
+        height: 20px;
+        width: 100%;
+    };
+}
+
+.filterbuttons {
+    button {
+      border: 0;
+      border-radius: 5px;
+      font-size: 14px;
+    };
+}
+
+.searchpagebutton {
+    background-color: rgb(65, 126, 177);
+    color: white;
+}
+
+.searchpageclear {
+    background-color: burlywood;
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
+    body {
+        padding-top: 75px;
+    }
     .searchbox {
         form {
             display: grid;
@@ -306,5 +368,10 @@ a {
 
     .navmenu {
         align-content: center;
+    }
+
+    .filtermain {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 }
