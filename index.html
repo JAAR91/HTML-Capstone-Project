@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,14 +9,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid bg-dark w-100 fixed-top">
+    <header class="container-fluid w-100 fixed-top">
         <nav class="row align-items-center">
             <div class="col-12 col-md-4 col-lg-5 d-flex flex-row justify-content-center p-4">
-                <a class="mx-" href="#"><img src="/Resources/pin.png" alt=""></a>
-                <a class="text-white mx-3" href="#">TABLEBOOKING</a>
+                <a href="index.html"><img id="mainpageicon" src="/Resources/pin.png" alt=""></a>
+                <a class="text-white m-1 " href="index.html">TABLEBOOKING</a>
             </div>
             <div class="col-12 col-md-7 col-lg-7 d-flex flex-row justify-content-center p-4">
-                <a class="mx-5" href="#"><img class="p-1" src="/Resources/search.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">SCHOOLS</p></a>
+                <a class="mx-5" href="#"><img class="p-1" src="/Resources/search.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">RESTAURANTS</p></a>
                 <a class="mx-5" href="#"><img class="p-1" src="/Resources/login.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">ABOUT</p></a>
                 <a class="mx-5" href="#"><img class="p-1" src="/Resources/webfeed.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">BLOG</p></a>
                 <a class="mx-5" href="#"><img class="p-1" src="/Resources/menu.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">MORE...</p></a>
@@ -100,53 +101,53 @@
     </section>
 
     <!--footer-->
-    <footer class="footer mt-auto bg-dark p-0">
+    <footer class="footer mt-auto mainfooter p-0">
         <nav class="row navmenu">
-            <ul class="col-5 bottombar">
+            <ul class="col-5 bottombar my-3">
                 <li><a class="normaltextsize" href="">HOME</a></li>
                 <li><a class="normaltextsize" href="">SEARCH</a></li>
                 <li><a class="normaltextsize" href="">ABOUT US</a></li>
                 <li><a class="normaltextsize" href="">ADVERTISE</a></li>
             </ul>
-            <li class="col-2 menuimg"><img class="mx-auto" src="/Resources/locationbig.png" alt=""></li>
-            <ul class="col-5 bottombar">
+            <div class="col-2 menuimg"><a href="index.html"><img src="/Resources/locationbig.png" alt=""></a></div>
+            <ul class="col-5 bottombar my-3">
                 <li><a class="normaltextsize" href="">FACEBOOK</a></li>
                 <li><a class="normaltextsize" href="">TWITTER</a></li>
                 <li><a class="normaltextsize" href="">BLOG</a></li>
                 <li><a class="normaltextsize" href="">GOOGLE+</a></li>
             </ul>
         </nav>
-        <div class="row links container-fluid p-0 m-0">
+        <div class="row links container-fluid p-0 my-2 mx-0">
             <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-                <h3>SUBSCRIBE</h3>
-                <form action="submit">
-                    <input type="email" required>
+                <h3 class="m-2">SUBSCRIBE</h3>
+                <form class="mb-4" action="submit">
+                    <input type="email" required placeholder="E-mail">
                     <button>send</button>
                 </form>
             </div>
             <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-                <h3>CONTACT</h3>
+                <h3 class="m-3">CONTACT</h3>
                 <p class="normaltextsize m-0">Have any questions please contact us at:</p>
-                <a class="normaltextsize" href="#">info@whererestaurant.com</a>
+                <a class="normaltextsize mb-4" href="#">info@whererestaurant.com</a>
             </div>
             <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-                <h3>ABOUT</h3>
-                <p class="normaltextsize m-0">This is an online page try to make restaurant booking easier and faster, learn more <a href="#">about...</a></p>
+                <h3 class="m-3">ABOUT</h3>
+                <p class="normaltextsize mx-0 mb-4">This is an online page try to make restaurant booking easier and faster, learn more <a href="#">about...</a></p>
             </div>
         </div>
         <nav class="row px-1">
-            <nav class="col-12 col-md-3 solcialicons my-1">
-                <img src="/Resources//facebook.png" alt="">
-                <img src="/Resources/twitter.png" alt="">
-                <img src="/Resources/email.png" alt="">
-                <img src="/Resources/google-plus-logo.png" alt="">
-                <img src="/Resources/instagram.png" alt="">
+            <nav class="col-12 col-md-3 solcialicons py-2 my-1">
+                <a href="#"><img src="/Resources//facebook.png" alt=""></a>
+                <a href="#"><img src="/Resources/twitter.png" alt=""></a>
+                <a href="#"><img src="/Resources/email.png" alt=""></a>
+                <a href="#"><img src="/Resources/google-plus-logo.png" alt=""></a>
+                <a href="#"><img src="/Resources/instagram.png" alt=""></a>
             </nav>
-            <nav class="col-12 col-md-9 rights my-auto">
+            <nav class="col-12 col-md-9 rights my-3">
                 <p class="normaltextsize p-0 my-2">TABLEBOOKING 2021.ALL RIGHTS RESERVED. LOVE AND AWESOMENESS</p>
             </nav>
         </nav>
-    </footer>
+    </footer> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
 </body>
 </html>
