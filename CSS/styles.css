@@ -200,6 +200,40 @@ header {
   margin: 10px;
 }
 
+.infobanner2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 4fr 1fr 1fr 1fr;
+      grid-template-rows: 4fr 1fr 1fr 1fr;
+  padding: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-height: 550px;
+}
+
+.infobanner2 button {
+  width: 250px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.infobanner2 img {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  width: 250px;
+  height: 250px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin: 10px;
+}
+
 .banner1 {
   background-color: #5095aa;
 }
@@ -337,10 +371,13 @@ header {
 }
 
 .filtercontainer {
-  background-color: #e2ebee;
-  -webkit-box-shadow: inset 0px 0px 5 px #2f5a7e;
-          box-shadow: inset 0px 0px 5 px #2f5a7e;
-  max-height: 900px;
+  background-image: url("/Resources/searchbanner.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 150px 150px rgba(0, 51, 59, 0.678);
+          box-shadow: inset 0px 0px 150px 150px rgba(0, 51, 59, 0.678);
+  color: white;
+  border-radius: 10px;
 }
 
 .filtermain {
@@ -386,7 +423,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 550px;
 }
 
 .resultboxchild a {
@@ -397,17 +433,13 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   color: white;
   background-image: url("/Resources/noimageprofile.jpg");
-  background-color: rgba(0, 0, 0, 0.425);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-box-shadow: inset 0px 0px 120px 120px rgba(0, 0, 0, 0.87), 0px 0px 10px black;
-          box-shadow: inset 0px 0px 120px 120px rgba(0, 0, 0, 0.87), 0px 0px 10px black;
+  -webkit-box-shadow: inset 0px 0px 150px 150px rgba(29, 0, 32, 0.938), 0px 0px 10px black;
+          box-shadow: inset 0px 0px 150px 150px rgba(29, 0, 32, 0.938), 0px 0px 10px black;
 }
 
 .profileicon {
@@ -418,6 +450,7 @@ header {
 .profileface {
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.568);
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.568);
+  border-radius: 5px;
 }
 
 .profileface ul {
@@ -489,6 +522,44 @@ header {
   }
   .infobanner img {
     border-radius: 50%;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 4;
+    width: 250px;
+    height: 250px;
+  }
+  .infobanner2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    max-height: 310px;
+  }
+  .infobanner2 h3 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    margin-top: 50px;
+  }
+  .infobanner2 p {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .infobanner2 button {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    width: 250px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+  .infobanner2 img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     -ms-grid-column: 2;
     grid-column: 2;
     -ms-grid-row: 1;
