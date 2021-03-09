@@ -2,6 +2,8 @@ a {
     text-decoration: none;
 }
 
+$grid-breakpoints: (lg: 1024px);
+
 body {
   padding-top: 115px;
   overflow-x: hidden;
@@ -9,6 +11,7 @@ body {
 
 header {
     overflow: hidden;
+    box-shadow: 0px 0px 10px black;
 }
 
 .normaltextsize {
@@ -302,10 +305,11 @@ header {
 
 .resultboxchild {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 550px;
     a {
-        opacity: 0.95;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
         color: white;
         background-image: url('/Resources/noimageprofile.jpg');
         background-color: rgba(0, 0, 0, 0.425);
@@ -314,6 +318,27 @@ header {
         background-repeat: no-repeat;
         box-shadow:inset 0px 0px 120px 120px rgba(0, 0, 0, 0.87), 0px 0px 10px black;
     };
+}
+
+.profileface {
+    box-shadow: 0px 0px 5px black;
+    div {
+        img {
+            width: 30px;
+            height: 30px;
+        };
+    };
+    ul {
+      list-style-type: none;
+      li {
+        text-align: center;
+        margin: 5px;
+        p {
+            margin: 0;
+        };
+      };
+    };
+   
 }
 
 @media only screen and (min-width: 768px) {
