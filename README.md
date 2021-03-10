@@ -29,7 +29,7 @@ Create a new folder/directory for the project
 
 - open your terminal on your OS
 - go to the desired folder/directory that you want to have the project in
-- git clone https://github.com/fernandorpm/mv-project3.git
+- git clone gh repo clone JAAR91/HTML-Capstone-Project
 
 ## Author
 
