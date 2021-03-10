@@ -34,14 +34,14 @@
                 </div>
                 <div class="filterchild">
                     <label for="city">City</label>
-                    <input id="city" name="city" type="text required">
+                    <input id="city" name="city" type="text" required>
                 </div>
                 <div class="filterchild">
                     <label for="name">Restaurant Name</label>
                     <input id="name" name="name" type="text" required>
                 </div>
                 <div class="filterchild">
-                    <label for="hour">Aavailable Hours</label>
+                    <label for="hours">Aavailable Hours</label>
                     <select name="hours" id="hours">
                         <option value="morning">Morning</option>
                         <option value="noon">Noon</option>
@@ -59,12 +59,12 @@
                         <input class="radiobutton" type="radio" id="yes" name="metting" value="yes">
                         <label for="yes">Yes</label>
                         <input class="radiobutton" type="radio" id="no" name="metting" value="yno">
-                        <label for="No">No</label>
+                        <label for="no">No</label>
                     </div> 
                 </div>
                 <div class="filterbuttons d-flex justify-content-center align-items-center">
-                    <button class="searchpagebutton m-1">Search</button>
-                    <button class="searchpageclear m-1">Clear Filter</button>
+                    <button class="searchpagebutton m-1" type="button">Search</button>
+                    <button class="searchpageclear m-1" type="button">Clear Filter</button>
                 </div>
                 
             </form>
@@ -277,7 +277,7 @@
                 <h3 class="m-2">SUBSCRIBE</h3>
                 <form class="mb-4" action="submit">
                     <input type="email" required placeholder="E-mail">
-                    <button>send</button>
+                    <button type="button">send</button>
                 </form>
             </div>
             <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-0 m-0">
