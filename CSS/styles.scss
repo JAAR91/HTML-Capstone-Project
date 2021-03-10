@@ -37,19 +37,19 @@ header {
 }
 
 .searchpicture1 {
-  background: url('../Resources/food.jpg');
+  background: url("../Resources/food.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .searchpicture2 {
-  background-image: url('../Resources/food2.jpg');
+  background-image: url("../Resources/food2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .searchpicture3 {
-  background-image: url('../Resources/food3.jpg');
+  background-image: url("../Resources/food3.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -128,7 +128,7 @@ header {
     color: rgb(173, 130, 74);
     box-shadow: 0 0 10px rgb(114, 86, 50);
   }
-  
+
   img {
     box-shadow: 0 0 10px black;
   }
@@ -195,7 +195,7 @@ header {
 }
 
 .filtercontainer {
-  background-image: url('../Resources/searchbanner.jpg');
+  background-image: url("../Resources/searchbanner.jpg");
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 150px 150px rgba(0, 51, 59, 0.678);
@@ -354,7 +354,7 @@ header {
     display: flex;
     flex-direction: column;
     color: white;
-    background-image: url('../Resources/noimageprofile.jpg');
+    background-image: url("../Resources/noimageprofile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
