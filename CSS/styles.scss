@@ -28,7 +28,7 @@ header {
 }
 
 .carousel-inner {
-  height: 700px;
+  height: 600px;
 }
 
 #carouselExampleSlidesOnly {
@@ -444,6 +444,10 @@ header {
     padding-top: 75px;
   }
 
+  .carousel-inner {
+    height: 700px;
+  }
+
   .infobanner {
     display: grid;
     grid-template-columns: 70% 30%;
@@ -559,6 +563,10 @@ header {
 }
 
 @media only screen and (min-width: 1024px) {
+  .carousel-inner {
+    height: 800px;
+  }
+
   .filtermain {
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
