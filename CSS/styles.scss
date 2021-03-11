@@ -220,8 +220,9 @@ footer {
   justify-content: center;
   background-color: rgb(220, 230, 230);
   color: black;
+  margin-top: 50px;
 
-  h1 {
+  p {
     color: grey;
     text-align: center;
   }
@@ -390,6 +391,10 @@ footer {
     background-repeat: no-repeat;
     box-shadow: inset 0 0 150px 250px #a54730f1, 0 0 10px black;
     border-radius: 5px;
+  }
+
+  img {
+    aspect-ratio: 1.5/1;
   }
 }
 
