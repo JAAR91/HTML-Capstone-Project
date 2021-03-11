@@ -13,9 +13,6 @@
 ![screenshot](./Resources/screen1.png)
 ![screenshot](./Resources/screen2.png)
 ![screenshot](./Resources/screen3.png)
-![screenshot](./Resources/screen4.png)
-![screenshot](./Resources/screen5.png)
-![screenshot](./Resources/screen6.png)
 
 ## Built With
 
