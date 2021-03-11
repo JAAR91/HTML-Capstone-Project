@@ -1,5 +1,19 @@
+@font-face {
+  font-family: pagefont;
+  src: url(../Resources/pagefont.ttf);
+}
+
 a {
   text-decoration: none;
+}
+
+.color {
+  color: #aa462d;
+}
+
+.tittle2 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 $grid-breakpoints: (lg: 1024px);
@@ -7,12 +21,13 @@ $grid-breakpoints: (lg: 1024px);
 body {
   padding-top: 115px;
   overflow-x: hidden;
+  font-family: pagefont;
 }
 
 header {
   overflow: hidden;
   box-shadow: 0 0 10px black;
-  background-color: #2a1530;
+  background-color: #aa462d;
 }
 
 .normaltextsize {
@@ -60,6 +75,7 @@ header {
   grid-template-rows: 4fr 1fr 1fr 1fr;
   padding: 30px;
   justify-content: center;
+  color: white;
 
   button {
     width: 250px;
@@ -86,6 +102,7 @@ header {
   padding: 30px;
   justify-content: center;
   max-height: 550px;
+  color: white;
 
   button {
     width: 250px;
@@ -165,8 +182,9 @@ header {
   width: 100%;
 }
 
-.mainfooter {
-  background-color: #2a1530;
+footer {
+  background-color: black;
+  box-shadow: 0 0 10px black;
 }
 
 .solcialicons {
@@ -237,7 +255,8 @@ header {
     border-radius: 5px;
     font-size: 14px;
     align-self: center;
-    width: 100px;
+    width: 120px;
+    height: 30px;
   }
 }
 
@@ -263,10 +282,9 @@ header {
     width: 150px;
     border: 0;
     background-color: rgb(255, 255, 255);
-    color: rgb(51, 51, 51);
+    color: #aa462d;
     border-radius: 5px;
     align-self: center;
-    margin-bottom: 14px;
     font-size: 14px;
   }
 
@@ -277,11 +295,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 
     label {
       padding: 0;
       font-size: 15px;
       margin-bottom: 10px;
+      align-self: flex-start;
     }
 
     input {
@@ -289,16 +309,18 @@ header {
       border-radius: 5px;
       border: 0;
       font-size: 18px;
+      align-self: flex-start;
     }
 
     button {
-      color: #2a1530;
-      background-color: rgb(255, 255, 255);
+      color: white;
+      background-color: #aa462d;
       box-shadow: 0 0 10px #2a1530;
       font-weight: bold;
       border: 0;
       border-radius: 5px;
       width: 250px;
+      height: 29px;
       font-size: 15px;
     }
   }
@@ -336,14 +358,16 @@ header {
 }
 
 .searchpagebutton {
-  background-color: rgb(255, 255, 255);
-  color: #005f08;
+  background-color: rgb(36, 88, 138);
+  color: white;
+  border: 1px solid blue;
   box-shadow: 0 0 10px black;
 }
 
 .searchpageclear {
-  background-color: rgb(255, 255, 255);
-  color: rgb(156, 87, 21);
+  background-color: #c59257;
+  color: white;
+  border: 2px solid rgb(255, 102, 0);
   box-shadow: 0 0 10px black;
 }
 
@@ -358,7 +382,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 150px 150px rgba(29, 0, 32, 0.938), 0 0 10px black;
+    box-shadow: inset 0 0 150px 250px #883a26f1, 0 0 10px black;
   }
 }
 
@@ -521,19 +545,24 @@ header {
       display: grid;
       grid-template-columns: 70% 30%;
       grid-template-rows: 1fr 1fr;
+      gap: 0;
 
       label {
         grid-column: span 2;
+        text-align: left;
       }
 
       input {
         margin: 0;
         width: 100%;
+        border-radius: 5px 0 0 5px;
       }
 
       button {
         width: 100%;
         margin: 0;
+        border-radius: 0 5px 5px 0;
+        box-shadow: 10px 0 10px #2a1530;
       }
     }
   }

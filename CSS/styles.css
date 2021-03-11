@@ -1,17 +1,32 @@
+@font-face {
+  font-family: pagefont;
+  src: url(../Resources/pagefont.ttf);
+}
+
 a {
   text-decoration: none;
+}
+
+.color {
+  color: #aa462d;
+}
+
+.tittle2 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 body {
   padding-top: 115px;
   overflow-x: hidden;
+  font-family: pagefont;
 }
 
 header {
   overflow: hidden;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
-  background-color: #2a1530;
+  background-color: #aa462d;
 }
 
 .normaltextsize {
@@ -65,6 +80,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: white;
 }
 
 .infobanner button {
@@ -98,6 +114,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   max-height: 550px;
+  color: white;
 }
 
 .infobanner2 button {
@@ -194,8 +211,10 @@ header {
   width: 100%;
 }
 
-.mainfooter {
-  background-color: #2a1530;
+footer {
+  background-color: black;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
 }
 
 .solcialicons {
@@ -293,7 +312,8 @@ header {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  width: 100px;
+  width: 120px;
+  height: 30px;
 }
 
 .searchbox {
@@ -327,12 +347,11 @@ header {
   width: 150px;
   border: 0;
   background-color: white;
-  color: #333333;
+  color: #aa462d;
   border-radius: 5px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-bottom: 14px;
   font-size: 14px;
 }
 
@@ -350,12 +369,15 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 10px;
 }
 
 .searchbox form label {
   padding: 0;
   font-size: 15px;
   margin-bottom: 10px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .searchbox form input {
@@ -363,17 +385,20 @@ header {
   border-radius: 5px;
   border: 0;
   font-size: 18px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .searchbox form button {
-  color: #2a1530;
-  background-color: white;
+  color: white;
+  background-color: #aa462d;
   -webkit-box-shadow: 0 0 10px #2a1530;
           box-shadow: 0 0 10px #2a1530;
   font-weight: bold;
   border: 0;
   border-radius: 5px;
   width: 250px;
+  height: 29px;
   font-size: 15px;
 }
 
@@ -407,15 +432,17 @@ header {
 }
 
 .searchpagebutton {
-  background-color: white;
-  color: #005f08;
+  background-color: #24588a;
+  color: white;
+  border: 1px solid blue;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
 }
 
 .searchpageclear {
-  background-color: white;
-  color: #9c5715;
+  background-color: #c59257;
+  color: white;
+  border: 2px solid #ff6600;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
 }
@@ -439,8 +466,8 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-box-shadow: inset 0 0 150px 150px rgba(29, 0, 32, 0.938), 0 0 10px black;
-          box-shadow: inset 0 0 150px 150px rgba(29, 0, 32, 0.938), 0 0 10px black;
+  -webkit-box-shadow: inset 0 0 150px 250px #883a26f1, 0 0 10px black;
+          box-shadow: inset 0 0 150px 250px #883a26f1, 0 0 10px black;
 }
 
 .bottombar {
@@ -617,17 +644,23 @@ header {
         grid-template-columns: 70% 30%;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    gap: 0;
   }
   .searchbox form label {
     grid-column: span 2;
+    text-align: left;
   }
   .searchbox form input {
     margin: 0;
     width: 100%;
+    border-radius: 5px 0 0 5px;
   }
   .searchbox form button {
     width: 100%;
     margin: 0;
+    border-radius: 0 5px 5px 0;
+    -webkit-box-shadow: 10px 0 10px #2a1530;
+            box-shadow: 10px 0 10px #2a1530;
   }
   .bottombar {
     -webkit-box-orient: horizontal;
