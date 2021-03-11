@@ -10,7 +10,12 @@
 
 >The last page includes a profile page you can reach by clicking on any of the results from the search result page. Here you can find more details about the restaurant like food photos, location and contact information, and finally a form to book a table.
 
-![screenshot](./Resources/pagescrenshoot.png)
+![screenshot](./Resources/screen1.png)
+![screenshot](./Resources/screen2.png)
+![screenshot](./Resources/screen3.png)
+![screenshot](./Resources/screen4.png)
+![screenshot](./Resources/screen5.png)
+![screenshot](./Resources/screen6.png)
 
 ## Built With
 
