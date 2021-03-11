@@ -19,7 +19,7 @@ a {
 body {
   padding-top: 115px;
   overflow-x: hidden;
-  font-family: pagefont;
+  font-family: pagefont, sans-serif;
 }
 
 header {
