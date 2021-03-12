@@ -11,15 +11,15 @@
 <body>
     <header class="container-fluid w-100 fixed-top">
         <nav class="row align-items-center">
-            <div class="col-12 col-md-4 col-lg-5 d-flex flex-row justify-content-center p-4">
+            <div class="col-12 col-md-4 col-lg-5 d-flex flex-row justify-content-center my-3">
                 <a href="index.html"><img id="mainpageicon" src="./Resources/pin.png" alt=""></a>
                 <a class="text-white fw-bold m-1" id="headerpagename" href="index.html">TABLEBOOKING</a>
             </div>
-            <div class="col-12 col-md-7 col-lg-7 d-flex flex-row justify-content-center p-4">
-                <a class="mx-5" href="#"><img class="p-1" src="./Resources/search.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">RESTAURANTS</p></a>
-                <a class="mx-5" href="#"><img class="p-1" src="./Resources/login.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">ABOUT</p></a>
-                <a class="mx-5" href="#"><img class="p-1" src="./Resources/webfeed.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">BLOG</p></a>
-                <a class="mx-5" href="#"><img class="p-1" src="./Resources/menu.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">MORE...</p></a>
+            <div class="col-12 col-md-7 col-lg-7 d-flex flex-row justify-content-center py-4">
+                <a class="mx-5 mx-lg-4" href="#"><img class="p-1" src="./Resources/search.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">RESTAURANTS</p></a>
+                <a class="mx-5 mx-lg-4" href="#"><img class="p-1" src="./Resources/login.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">ABOUT</p></a>
+                <a class="mx-5 mx-lg-4" href="#"><img class="p-1" src="./Resources/webfeed.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">BLOG</p></a>
+                <a class="mx-5 mx-lg-4" href="#"><img class="p-1" src="./Resources/menu.png" alt=""><p class="d-none d-lg-inline m-0 p-0 text-white normaltextsize">MORE...</p></a>
             </div>
         </nav>
     </header>
@@ -28,7 +28,7 @@
         <div class="container profileface my-5 py-3">
             <div class="w-100 d-flex flex-row justify-content-left">
                 <img class="mx-3 profileicon" src="./Resources/foodpurple.png" alt="">
-                <p class="color">Restaurant Name</p>
+                <h1 class="color">Restaurant Name</h1>
             </div>
             <div class="row shadow m-1">
                 <img class="col-12 col-md-4 p-0" src="./Resources/BBQburguer.jpg" alt="">
@@ -44,7 +44,7 @@
             <ul class="row p-0 m-0">
                 <li class="col-12 col-md-6 col-lg-4 m-0 p-1">
                     <div class="border shadow h-100 rounded">
-                        <p class="my-2 border-bottom color tittle2">Rating and Reviews</p>
+                        <h2 class="my-2 border-bottom color tittle2">Rating and Reviews</h2>
                         <div class="d-flex flex-row justify-content-center border-bottom p-2">
                             <p class="mx-2">4.5</p>
                             <img class="p-1" src="./Resources/starfull.png" alt="">
@@ -100,7 +100,7 @@
                 </li>
                 <li class="col-12 col-md-6 col-lg-4 m-0 p-1">
                     <div class="border shadow d-flex flex-column text-start p-3 h-100 rounded">
-                        <p class="border-bottom color tittle2">Details</p>
+                        <h2 class="border-bottom color tittle2">Details</h2>
                         <p class="fw-bold">PRICE RANGE</p>
                         <p>0.00$ to 0.00$</p><br>
                         <p class="fw-bold">CUISINES</p>
@@ -113,18 +113,21 @@
                 </li>
                 <li class="col-12 col-md-6 col-lg-4 m-0 p-1">
                     <div class="border shadow rounded">
-                        <p class="my-2 border-bottom color tittle2">Location and Contact</p>
+                        <h2 class="my-2 border-bottom color tittle2">Location and Contact</h2>
                         <iframe class="w-100 px-3 border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.6642817960974!2d30.2084274!3d51.2804985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472a8f3ba65b1133%3A0xc95125ffa96aade0!2sMonumento%20a%20quienes%20salvaron%20el%20mundo!5e0!3m2!1ses-419!2shn!4v1615305152456!5m2!1ses-419!2shn" height="170" loading="lazy"></iframe>
                         <div class="d-flex m-3">
                             <img class="m-1" src="./Resources/locationpurple.png" alt="">
                             <a class="text-dark" href="https://goo.gl/maps/s26GWpTDFWjFwFmFA">Restaurant Address</a>
                         </div>
-                        <div class="d-flex m-3">
-                            <img class="m-1" src="./Resources/website.png" alt="">
-                            <a class="text-dark me-5" href="#">Website</a>
-
-                            <img class="m-1" src="./Resources/emailpurple.png" alt="">
-                            <a class="text-dark" href="#">Email</a>
+                        <div class="row flex-row m-3">
+                            <div class="col-6 d-flex justify-content-start p-0">
+                                <img class="p-1" src="./Resources/website.png" alt="">
+                                <a class="text-dark p-0 text-start" href="#">Website</a>
+                            </div>
+                            <div class="col-6 d-flex justify-content-start p-0">
+                                <img class="p-1" src="./Resources/emailpurple.png" alt="">
+                                <a class="text-dark p-0" href="#">Email</a>
+                            </div>
                         </div>
                         <div class="d-flex m-3">
                             <img class="m-1" src="./Resources/phone.png" alt="">
@@ -135,7 +138,7 @@
             </ul>
             <div class="m-1">
                 <form class="row shadow m-0 pb-4 rounded" action="submit">
-                    <p class="col-12 p-0 m-3 color tittle2">Book a Table now:</p>
+                    <h2 class="col-12 p-0 m-3 color tittle2">Book a Table now:</h2>
                     <div class="col-12 col-md-3 p-2 d-flex"><img class="m-2" src="./Resources/calendar.png" alt=""><input class="w-100" type="date" id="date" name="date"></div>
                     <div class="col-12 col-md-3 p-2 d-flex"><img class="m-2" src="./Resources/clockpurple.png" alt=""><input class="w-100" type="time" id="time" name="time"></div>
                     <div class="col-12 col-md-3 p-2 d-flex"><img class="m-2" src="./Resources/people.png" alt=""><input class="w-100" type="number" placeholder="people"></div>
@@ -146,7 +149,7 @@
     </section>
 
    <!--footer-->
-   <footer class="footer mt-auto mainfooter p-0">
+   <footer class="footer mt-auto p-0">
     <nav class="row navmenu">
         <ul class="col-5 bottombar my-3">
             <li><a class="normaltextsize" href="">HOME</a></li>
@@ -163,33 +166,33 @@
         </ul>
     </nav>
     <div class="row links container-fluid p-0 my-2 mx-0">
-        <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-            <p class="m-2">SUBSCRIBE</p>
+        <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center px-2 m-0">
+            <h5 class="m-2 footertittles">SUBSCRIBE</h5>
             <form class="mb-4" action="submit">
                 <input type="email" required placeholder="E-mail">
                 <button type="button">send</button>
             </form>
         </div>
         <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-            <p class="m-3">CONTACT</p>
+            <h5 class="m-3 footertittles">CONTACT</h5>
             <p class="normaltextsize m-0">Have any questions please contact us at:</p>
             <a class="normaltextsize mb-4" href="#">info@whererestaurant.com</a>
         </div>
         <div class="linkschild col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-0 m-0">
-            <p class="m-3">ABOUT</p>
+            <h5 class="m-3 footertittles">ABOUT</h5>
             <p class="normaltextsize mx-0 mb-4">This is an online page try to make restaurant booking easier and faster, learn more <a href="#">about...</a></p>
         </div>
     </div>
-    <nav class="row px-1">
-        <nav class="col-12 col-md-3 solcialicons py-2 my-1">
+    <nav class="row p-3 my-2">
+        <nav class="col-12 col-md-3 solcialicons my-2">
             <a href="#"><img src="./Resources//facebook.png" alt=""></a>
             <a href="#"><img src="./Resources/twitter.png" alt=""></a>
             <a href="#"><img src="./Resources/email.png" alt=""></a>
             <a href="#"><img src="./Resources/google-plus-logo.png" alt=""></a>
             <a href="#"><img src="./Resources/instagram.png" alt=""></a>
         </nav>
-        <nav class="col-12 col-md-9 rights my-3">
-            <p class="normaltextsize p-0 my-2">TABLEBOOKING 2021.ALL RIGHTS RESERVED. LOVE AND AWESOMENESS</p>
+        <nav class="col-12 col-md-9 rights my-2">
+            <p class="normaltextsize w-100 h-100 my-auto">TABLEBOOKING 2021.ALL RIGHTS RESERVED. LOVE AND AWESOMENESS</p>
         </nav>
     </nav>
 </footer> 
