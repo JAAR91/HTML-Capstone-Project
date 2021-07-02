@@ -2,13 +2,13 @@
 
 ## Booking Website
 
-> This is a layout of a restaurant website.
+ This is a layout of a restaurant website.
 
->The front page includes the search "form" at the beginning that will take you to a search result page, below it has information and description about the website. 
+The front page includes the search "form" at the beginning that will take you to a search result page, below it has information and description about the website. 
 
->Also, the project includes a search result page with a filter form to make the search more specific and the results are displayed below the filter form. Each of the results contains short information about the restaurant including a small description, working hours, and reviews. 
+Also, the project includes a search result page with a filter form to make the search more specific and the results are displayed below the filter form. Each of the results contains short information about the restaurant including a small description, working hours, and reviews. 
 
->The last page includes a profile page you can reach by clicking on any of the results from the search result page. Here you can find more details about the restaurant like food photos, location and contact information, and finally a form to book a table.
+The last page includes a profile page you can reach by clicking on any of the results from the search result page. Here you can find more details about the restaurant like food photos, location and contact information, and finally a form to book a table.
 
 ![screenshot](./Resources/screen1.png)
 ![screenshot](./Resources/screen2.png)
@@ -29,15 +29,17 @@
 
 Be sure to have a github account and that this account is connected locally on your PC
 
-### Setup
-
-Create a new folder/directory for the project
-
 ### Install
 
-- open your terminal on your OS
-- go to the desired folder/directory that you want to have the project in
-- git clone gh repo clone JAAR91/HTML-Capstone-Project
+First we need to clone the repository to your local files, for that use the following command on your terminal:
+```
+$ git clone git@github.com:JAAR91/HTML-Capstone-Project.git
+```
+Now we have to acces the folder we just created:
+```
+$ cd HTML-CAPSTONE-PROJECT
+```
+To run the project you can use vscode "live server" extension but just opening Index.html file with any browser will to the job.
 
 ## Author
 
