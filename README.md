@@ -1,14 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Booking Website
+Layout of a booking website, that allows book tables from restaurants on your area. Fully responsive. Project include: 
 
- This is a layout of a restaurant website.
+- The front page that includes the search "form" at the beginning that will take you to a search result page, below it has information and description about the website. 
 
-The front page includes the search "form" at the beginning that will take you to a search result page, below it has information and description about the website. 
+- Search result page with a filter form to make the search more specific and the results are displayed below the filter form. Each of the results contains short information about the restaurant including a small description, working hours, and reviews. 
 
-Also, the project includes a search result page with a filter form to make the search more specific and the results are displayed below the filter form. Each of the results contains short information about the restaurant including a small description, working hours, and reviews. 
-
-The last page includes a profile page you can reach by clicking on any of the results from the search result page. Here you can find more details about the restaurant like food photos, location and contact information, and finally a form to book a table.
+- Restaurant profile page that you can reach by clicking on any of the results from the search result page. Here you can find more details about the restaurant like food photos, location and contact information, and finally a form to book a table.
 
 ![screenshot](./Resources/screen1.png)
 ![screenshot](./Resources/screen2.png)
